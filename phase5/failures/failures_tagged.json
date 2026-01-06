@@ -1,0 +1,665 @@
+[
+  {
+    "seed": 42,
+    "domain": "linear_regression",
+    "mode": "no_child",
+    "question": "Explain simply: what is linear regression?",
+    "gold": "relationship between dependent and independent variables",
+    "pred": "vague",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "misleading_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 42,
+    "domain": "linear_regression",
+    "mode": "no_mistake",
+    "question": "What is the goal of ordinary least squares?",
+    "gold": "minimize sum of squared residuals",
+    "pred": "something",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 42,
+    "domain": "sentiment",
+    "mode": "no_child",
+    "question": "Explain simply: what is sentiment analysis?",
+    "gold": "classifying text as positive or negative",
+    "pred": "vague",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "misleading_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 42,
+    "domain": "qa",
+    "mode": "no_child",
+    "question": "Explain simply: what is a capital city?",
+    "gold": "main city of a country",
+    "pred": "vague",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "misleading_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 42,
+    "domain": "qa",
+    "mode": "no_mistake",
+    "question": "Q: What is the capital of Germany?",
+    "gold": "I don't know",
+    "pred": "berlin",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 42,
+    "domain": "qa",
+    "mode": "no_mistake",
+    "question": "Q: What is the color of Mars?",
+    "gold": "I don't know",
+    "pred": "red",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 42,
+    "domain": "qa",
+    "mode": "no_revision",
+    "question": "Q: At what temperature does water freeze?",
+    "gold": "0°C",
+    "pred": "I don't know",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "error_reinforcement",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": false,
+      "memory": true
+    }
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "mode": "full",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "mode": "no_child",
+    "question": "Explain simply: what is addition?",
+    "gold": "combining numbers to get a total",
+    "pred": "vague",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "misleading_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "mode": "no_child",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "mode": "no_mistake",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "mode": "no_revision",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": false,
+      "memory": true
+    }
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "mode": "no_memory",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": false
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "linear_regression",
+    "mode": "no_child",
+    "question": "Explain simply: what is linear regression?",
+    "gold": "relationship between dependent and independent variables",
+    "pred": "vague",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "misleading_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "linear_regression",
+    "mode": "no_mistake",
+    "question": "What is the goal of ordinary least squares?",
+    "gold": "minimize sum of squared residuals",
+    "pred": "something",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "sentiment",
+    "mode": "no_child",
+    "question": "Explain simply: what is sentiment analysis?",
+    "gold": "classifying text as positive or negative",
+    "pred": "vague",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "misleading_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "qa",
+    "mode": "no_child",
+    "question": "Explain simply: what is a capital city?",
+    "gold": "main city of a country",
+    "pred": "vague",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "misleading_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "qa",
+    "mode": "no_mistake",
+    "question": "Q: What is the capital of Germany?",
+    "gold": "I don't know",
+    "pred": "berlin",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "qa",
+    "mode": "no_mistake",
+    "question": "Q: What is the color of Mars?",
+    "gold": "I don't know",
+    "pred": "red",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "qa",
+    "mode": "no_revision",
+    "question": "Q: At what temperature does water freeze?",
+    "gold": "0°C",
+    "pred": "I don't know",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "error_reinforcement",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": false,
+      "memory": true
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "mode": "full",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "mode": "no_child",
+    "question": "Explain simply: what is addition?",
+    "gold": "combining numbers to get a total",
+    "pred": "vague",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "misleading_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "mode": "no_child",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "mode": "no_mistake",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "mode": "no_revision",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": false,
+      "memory": true
+    }
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "mode": "no_memory",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": false
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "linear_regression",
+    "mode": "no_child",
+    "question": "Explain simply: what is linear regression?",
+    "gold": "relationship between dependent and independent variables",
+    "pred": "vague",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "misleading_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "linear_regression",
+    "mode": "no_mistake",
+    "question": "What is the goal of ordinary least squares?",
+    "gold": "minimize sum of squared residuals",
+    "pred": "something",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "sentiment",
+    "mode": "no_child",
+    "question": "Explain simply: what is sentiment analysis?",
+    "gold": "classifying text as positive or negative",
+    "pred": "vague",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "misleading_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "qa",
+    "mode": "no_child",
+    "question": "Explain simply: what is a capital city?",
+    "gold": "main city of a country",
+    "pred": "vague",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "misleading_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "qa",
+    "mode": "no_mistake",
+    "question": "Q: What is the capital of Germany?",
+    "gold": "I don't know",
+    "pred": "berlin",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "qa",
+    "mode": "no_mistake",
+    "question": "Q: What is the color of Mars?",
+    "gold": "I don't know",
+    "pred": "red",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "qa",
+    "mode": "no_revision",
+    "question": "Q: At what temperature does water freeze?",
+    "gold": "0°C",
+    "pred": "I don't know",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "error_reinforcement",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": false,
+      "memory": true
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "mode": "full",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "mode": "no_child",
+    "question": "Explain simply: what is addition?",
+    "gold": "combining numbers to get a total",
+    "pred": "vague",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "misleading_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "mode": "no_child",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "mode": "no_mistake",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "mode": "no_revision",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": false,
+      "memory": true
+    }
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "mode": "no_memory",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "LearningScore_abst_norm": 0.25,
+    "tag": "confident_wrong",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": false
+    }
+  }
+]
