@@ -1,0 +1,6 @@
+{
+  "domain": "sentiment",
+  "seed": 2025,
+  "note_raw": "- Heuristic: classify task -> extract evidence/rule -> compute/extract -> verify.\n- Guardrail: if evidence missing, abstain with 'I don't know'.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context (copy span; no invention).\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues (loved/fantastic/enjoyed->positive; awful/terrible/boring->negative; mixed/hedged->neutral).\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic (substitute x then evaluate).",
+  "note_final": "- Heuristic: classify task -> extract evidence/rule -> compute/extract -> verify.\n- Guardrail: if evidence missing, abstain with 'I don't know'.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context (copy span; no invention).\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues (loved/fantastic/enjoyed->positive; awful/terrible/boring->negative; mixed/hedged->neutral).\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic (substitute x then evaluate)."
+}
