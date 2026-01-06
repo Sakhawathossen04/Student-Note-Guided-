@@ -1,0 +1,74 @@
+[
+    {
+        "mode": "full",
+        "question": "Explain linear regression",
+        "answer": 0.7467308612001047,
+        "score": 0.7467308612001047
+    },
+    {
+        "mode": "full",
+        "question": "What is a common mistake in linear regression?",
+        "answer": 0.7452770785339613,
+        "score": 0.7452770785339613
+    },
+    {
+        "mode": "no_child",
+        "question": "Explain linear regression",
+        "answer": 0.708957848577602,
+        "score": 0.708957848577602
+    },
+    {
+        "mode": "no_child",
+        "question": "What is a common mistake in linear regression?",
+        "answer": 0.7084052902824467,
+        "score": 0.7084052902824467
+    },
+    {
+        "mode": "no_steps",
+        "question": "Explain linear regression",
+        "answer": 0.6703895682593596,
+        "score": 0.6703895682593596
+    },
+    {
+        "mode": "no_steps",
+        "question": "What is a common mistake in linear regression?",
+        "answer": 0.6810247171542411,
+        "score": 0.6810247171542411
+    },
+    {
+        "mode": "no_mistake",
+        "question": "Explain linear regression",
+        "answer": 0.7244502145987913,
+        "score": 0.7244502145987913
+    },
+    {
+        "mode": "no_mistake",
+        "question": "What is a common mistake in linear regression?",
+        "answer": 0.7235947100607252,
+        "score": 0.7235947100607252
+    },
+    {
+        "mode": "no_revision",
+        "question": "Explain linear regression",
+        "answer": 0.5951941362499138,
+        "score": 0.5951941362499138
+    },
+    {
+        "mode": "no_revision",
+        "question": "What is a common mistake in linear regression?",
+        "answer": 0.5901273756414078,
+        "score": 0.5901273756414078
+    },
+    {
+        "mode": "no_memory",
+        "question": "Explain linear regression",
+        "answer": 0.7158459144823112,
+        "score": 0.7158459144823112
+    },
+    {
+        "mode": "no_memory",
+        "question": "What is a common mistake in linear regression?",
+        "answer": 0.7010470621828977,
+        "score": 0.7010470621828977
+    }
+]
