@@ -1,0 +1,16 @@
+t,domain,mode,question,gold,pred,acc,abstain,halluc,consistency,seed
+1,math,direct,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0,42
+2,math,direct,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0,42
+3,math,direct,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0,42
+4,math,direct,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0,42
+5,math,direct,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0,42
+1,math,rag,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0,42
+2,math,rag,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0,42
+3,math,rag,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0,42
+4,math,rag,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0,42
+5,math,rag,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0,42
+1,math,student_note,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0,42
+2,math,student_note,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0,42
+3,math,student_note,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0,42
+4,math,student_note,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0,42
+5,math,student_note,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0,42

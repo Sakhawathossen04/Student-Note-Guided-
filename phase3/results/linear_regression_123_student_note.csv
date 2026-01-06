@@ -1,0 +1,6 @@
+t,seed,domain,mode,question,gold,pred,acc,abstain,halluc,consistency
+1,123,linear_regression,student_note,What does linear regression model?,relationship between dependent and independent variables,relationship between dependent and independent variables,1.0,0.0,0.0,1.0000000000000002
+2,123,linear_regression,student_note,What is the goal of ordinary least squares?,minimize sum of squared residuals,minimize sum of squared residuals,1.0,0.0,0.0,1.0
+3,123,linear_regression,student_note,Write the simple linear regression equation.,y = beta0 + beta1 x,y = beta0 + beta1 x,1.0,0.0,0.0,1.0000000000000002
+4,123,linear_regression,student_note,What is a residual?,difference between observed and predicted value,difference between observed and predicted value,1.0,0.0,0.0,1.0000000000000002
+5,123,linear_regression,student_note,What does a high R-squared indicate?,model explains large fraction of variance,model explains large fraction of variance,1.0,0.0,0.0,1.0000000000000002

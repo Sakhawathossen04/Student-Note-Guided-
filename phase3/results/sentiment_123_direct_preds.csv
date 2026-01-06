@@ -1,0 +1,6 @@
+seed,domain,mode,t,question,gold,pred,acc,abstain,halluc,consistency
+123,sentiment,direct,1,"Sentiment of: 'I loved this movie, it was fantastic.'",positive,positive,1.0,0.0,0.0,1.0
+123,sentiment,direct,2,Sentiment of: 'This was awful and boring.',negative,negative,1.0,0.0,0.0,1.0
+123,sentiment,direct,3,"Sentiment of: 'Not bad, but not great either.'",neutral,neutral,1.0,0.0,0.0,1.0
+123,sentiment,direct,4,Sentiment of: 'Absolutely terrible experience.',negative,negative,1.0,0.0,0.0,1.0
+123,sentiment,direct,5,Sentiment of: 'I really enjoyed it.',positive,positive,1.0,0.0,0.0,1.0

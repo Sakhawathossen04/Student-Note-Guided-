@@ -1,0 +1,6 @@
+seed,domain,mode,t,question,gold,pred,acc,abstain,halluc,consistency
+2025,math,student_note,1,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0
+2025,math,student_note,2,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0
+2025,math,student_note,3,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0
+2025,math,student_note,4,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0
+2025,math,student_note,5,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0

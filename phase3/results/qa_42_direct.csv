@@ -1,0 +1,6 @@
+t,seed,domain,mode,question,gold,pred,acc,abstain,halluc,consistency
+1,42,qa,direct,Context: Paris is the capital of France. Q: What is the capital of France?,paris,paris,1.0,0.0,0.0,1.0
+2,42,qa,direct,Context: Water freezes at 0°C. Q: At what temperature does water freeze?,0°C,0°C,1.0,0.0,0.0,0.0
+3,42,qa,direct,Context: The Earth orbits the Sun. Q: What does the Earth orbit?,the sun,the sun,1.0,0.0,0.0,1.0
+4,42,qa,direct,Context: The Nile is a river in Africa. Q: Where is the Nile?,africa,africa,1.0,0.0,0.0,1.0
+5,42,qa,direct,Context: Python is a programming language. Q: What is Python?,a programming language,a programming language,1.0,0.0,0.0,1.0000000000000002

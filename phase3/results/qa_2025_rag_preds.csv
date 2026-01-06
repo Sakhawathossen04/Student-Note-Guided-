@@ -1,0 +1,6 @@
+seed,domain,mode,t,question,gold,pred,acc,abstain,halluc,consistency
+2025,qa,rag,1,Q: What is the capital of France?,paris,paris,1.0,0.0,0.0,1.0
+2025,qa,rag,2,Q: At what temperature does water freeze?,0°C,0°C,1.0,0.0,0.0,0.0
+2025,qa,rag,3,Q: What does the Earth orbit?,the sun,the sun,1.0,0.0,0.0,1.0
+2025,qa,rag,4,Q: Where is the Nile?,africa,africa,1.0,0.0,0.0,1.0
+2025,qa,rag,5,Q: What is Python?,a programming language,a programming language,1.0,0.0,0.0,1.0000000000000002

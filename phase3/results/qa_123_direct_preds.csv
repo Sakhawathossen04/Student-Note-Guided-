@@ -1,0 +1,6 @@
+seed,domain,mode,t,question,gold,pred,acc,abstain,halluc,consistency
+123,qa,direct,1,Q: What is the capital of France?,paris,I don't know,0.0,1.0,0.0,0.0
+123,qa,direct,2,Q: At what temperature does water freeze?,0°C,I don't know,0.0,1.0,0.0,0.0
+123,qa,direct,3,Q: What does the Earth orbit?,the sun,I don't know,0.0,1.0,0.0,0.0
+123,qa,direct,4,Q: Where is the Nile?,africa,I don't know,0.0,1.0,0.0,0.0
+123,qa,direct,5,Q: What is Python?,a programming language,I don't know,0.0,1.0,0.0,0.0
