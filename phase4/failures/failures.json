@@ -1,0 +1,1022 @@
+[
+  {
+    "seed": 42,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'I loved this movie, it was fantastic.'",
+    "gold": "positive",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'This was awful and boring.'",
+    "gold": "negative",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'Not bad, but not great either.'",
+    "gold": "neutral",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'Absolutely terrible experience.'",
+    "gold": "negative",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'I really enjoyed it.'",
+    "gold": "positive",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'I loved this movie, it was fantastic.'",
+    "gold": "positive",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'This was awful and boring.'",
+    "gold": "negative",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'Not bad, but not great either.'",
+    "gold": "neutral",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'Absolutely terrible experience.'",
+    "gold": "negative",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'I really enjoyed it.'",
+    "gold": "positive",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'I loved this movie, it was fantastic.'",
+    "gold": "positive",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'This was awful and boring.'",
+    "gold": "negative",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'Not bad, but not great either.'",
+    "gold": "neutral",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'Absolutely terrible experience.'",
+    "gold": "negative",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "sentiment",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Sentiment of: 'I really enjoyed it.'",
+    "gold": "positive",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: What is the capital of France?",
+    "gold": "paris",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: At what temperature does water freeze?",
+    "gold": "0°C",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: What does the Earth orbit?",
+    "gold": "the sun",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: Where is the Nile?",
+    "gold": "africa",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: What is Python?",
+    "gold": "a programming language",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: What is the capital of France?",
+    "gold": "paris",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: At what temperature does water freeze?",
+    "gold": "0°C",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: What does the Earth orbit?",
+    "gold": "the sun",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: Where is the Nile?",
+    "gold": "africa",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: What is Python?",
+    "gold": "a programming language",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: What is the capital of France?",
+    "gold": "paris",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: At what temperature does water freeze?",
+    "gold": "0°C",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: What does the Earth orbit?",
+    "gold": "the sun",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: Where is the Nile?",
+    "gold": "africa",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "qa",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Q: What is Python?",
+    "gold": "a programming language",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "full",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n2. Simple explanation for a child\n4. Common mistake\n- CHILD: explain simply; define key terms in plain language.\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Compute 7 + 5.",
+    "gold": "12",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Compute 9 * 3.",
+    "gold": "27",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Compute 15 - 8.",
+    "gold": "7",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Compute 24 / 6.",
+    "gold": "4",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_revision",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": false,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_memory",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": false
+    },
+    "note": "- TEMPLATE:\n2. Simple explanation for a child\n4. Common mistake\n- CHILD: explain simply; define key terms in plain language.\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "full",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n2. Simple explanation for a child\n4. Common mistake\n- CHILD: explain simply; define key terms in plain language.\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Compute 7 + 5.",
+    "gold": "12",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Compute 9 * 3.",
+    "gold": "27",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Compute 15 - 8.",
+    "gold": "7",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Compute 24 / 6.",
+    "gold": "4",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_revision",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": false,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_memory",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": false
+    },
+    "note": "- TEMPLATE:\n2. Simple explanation for a child\n4. Common mistake\n- CHILD: explain simply; define key terms in plain language.\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "full",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n2. Simple explanation for a child\n4. Common mistake\n- CHILD: explain simply; define key terms in plain language.\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Compute 7 + 5.",
+    "gold": "12",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Compute 9 * 3.",
+    "gold": "27",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Compute 15 - 8.",
+    "gold": "7",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_steps",
+    "config": {
+      "child": true,
+      "steps": false,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "Compute 24 / 6.",
+    "gold": "4",
+    "pred": "I don't know",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_revision",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": false,
+      "memory": true
+    },
+    "note": "- TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\n- CHILD: explain simply; define key terms in plain language.\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_memory",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": false
+    },
+    "note": "- TEMPLATE:\n2. Simple explanation for a child\n4. Common mistake\n- CHILD: explain simply; define key terms in plain language.\n- STEPS: identify task type; retrieve evidence; compute/extract; verify; answer.\n- MISTAKE: common error is answering without evidence/context; use guardrail.\n- META_QA: If question starts with 'Q:', retrieve context from corpus and answer using only context.\n- META_SENTIMENT: If question contains 'Sentiment of:', use polarity cues to classify.\n- META_MATH: If question contains 'Compute' or 'If x=', do exact arithmetic carefully.\n- GUARDRAIL: if evidence missing, abstain with 'I don't know'.",
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "acc": 0.0
+  }
+]

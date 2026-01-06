@@ -1,0 +1,719 @@
+[
+  {
+    "seed": 42,
+    "domain": "linear_regression",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Explain simply: what is linear regression?",
+    "gold": "relationship between dependent and independent variables",
+    "pred": "vague",
+    "note": "TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.\nLR_FACTS: y=beta0+beta1x; residual=y-y_hat; OLS minimizes SSE.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "misleading_or_vague_explanation_no_child"
+    ]
+  },
+  {
+    "seed": 42,
+    "domain": "linear_regression",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "question": "What is the goal of ordinary least squares?",
+    "gold": "minimize sum of squared residuals",
+    "pred": "something",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.\nLR_FACTS: y=beta0+beta1x; residual=y-y_hat; OLS minimizes SSE.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "no_guardrail_hallucination"
+    ]
+  },
+  {
+    "seed": 123,
+    "domain": "linear_regression",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Explain simply: what is linear regression?",
+    "gold": "relationship between dependent and independent variables",
+    "pred": "vague",
+    "note": "TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.\nLR_FACTS: y=beta0+beta1x; residual=y-y_hat; OLS minimizes SSE.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "misleading_or_vague_explanation_no_child"
+    ]
+  },
+  {
+    "seed": 123,
+    "domain": "linear_regression",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "question": "What is the goal of ordinary least squares?",
+    "gold": "minimize sum of squared residuals",
+    "pred": "something",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.\nLR_FACTS: y=beta0+beta1x; residual=y-y_hat; OLS minimizes SSE.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "no_guardrail_hallucination"
+    ]
+  },
+  {
+    "seed": 2025,
+    "domain": "linear_regression",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Explain simply: what is linear regression?",
+    "gold": "relationship between dependent and independent variables",
+    "pred": "vague",
+    "note": "TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.\nLR_FACTS: y=beta0+beta1x; residual=y-y_hat; OLS minimizes SSE.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "misleading_or_vague_explanation_no_child"
+    ]
+  },
+  {
+    "seed": 2025,
+    "domain": "linear_regression",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "question": "What is the goal of ordinary least squares?",
+    "gold": "minimize sum of squared residuals",
+    "pred": "something",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.\nLR_FACTS: y=beta0+beta1x; residual=y-y_hat; OLS minimizes SSE.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "no_guardrail_hallucination"
+    ]
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "full",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score"
+    ]
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Explain simply: what is addition?",
+    "gold": "combining numbers to get a total",
+    "pred": "vague",
+    "note": "TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "misleading_or_vague_explanation_no_child"
+    ]
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score"
+    ]
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "no_guardrail_hallucination"
+    ]
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_revision",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": false,
+      "memory": true
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.\nNOISE: sometimes abstain even when solvable.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "error_reinforcement_no_revision",
+      "low_score"
+    ]
+  },
+  {
+    "seed": 42,
+    "domain": "math",
+    "ablation_mode": "no_memory",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": false
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score"
+    ]
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "full",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score"
+    ]
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Explain simply: what is addition?",
+    "gold": "combining numbers to get a total",
+    "pred": "vague",
+    "note": "TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "misleading_or_vague_explanation_no_child"
+    ]
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score"
+    ]
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "no_guardrail_hallucination"
+    ]
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_revision",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": false,
+      "memory": true
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.\nNOISE: sometimes abstain even when solvable.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "error_reinforcement_no_revision",
+      "low_score"
+    ]
+  },
+  {
+    "seed": 123,
+    "domain": "math",
+    "ablation_mode": "no_memory",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": false
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score"
+    ]
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "full",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score"
+    ]
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Explain simply: what is addition?",
+    "gold": "combining numbers to get a total",
+    "pred": "vague",
+    "note": "TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "misleading_or_vague_explanation_no_child"
+    ]
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score"
+    ]
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "no_guardrail_hallucination"
+    ]
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_revision",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": false,
+      "memory": true
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.\nNOISE: sometimes abstain even when solvable.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "error_reinforcement_no_revision",
+      "low_score"
+    ]
+  },
+  {
+    "seed": 2025,
+    "domain": "math",
+    "ablation_mode": "no_memory",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": false
+    },
+    "question": "If x=4, compute 2x+1.",
+    "gold": "9",
+    "pred": "25",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score"
+    ]
+  },
+  {
+    "seed": 42,
+    "domain": "qa",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Explain simply: what is a capital city?",
+    "gold": "main city of a country",
+    "pred": "vague",
+    "note": "TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "misleading_or_vague_explanation_no_child"
+    ]
+  },
+  {
+    "seed": 42,
+    "domain": "qa",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Q: What is the capital of Germany?",
+    "gold": "I don't know",
+    "pred": "berlin",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "no_guardrail_hallucination"
+    ]
+  },
+  {
+    "seed": 42,
+    "domain": "qa",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Q: What is the color of Mars?",
+    "gold": "I don't know",
+    "pred": "red",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "no_guardrail_hallucination"
+    ]
+  },
+  {
+    "seed": 123,
+    "domain": "qa",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Explain simply: what is a capital city?",
+    "gold": "main city of a country",
+    "pred": "vague",
+    "note": "TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "misleading_or_vague_explanation_no_child"
+    ]
+  },
+  {
+    "seed": 123,
+    "domain": "qa",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Q: What is the capital of Germany?",
+    "gold": "I don't know",
+    "pred": "berlin",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "no_guardrail_hallucination"
+    ]
+  },
+  {
+    "seed": 123,
+    "domain": "qa",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Q: What is the color of Mars?",
+    "gold": "I don't know",
+    "pred": "red",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "no_guardrail_hallucination"
+    ]
+  },
+  {
+    "seed": 2025,
+    "domain": "qa",
+    "ablation_mode": "no_child",
+    "config": {
+      "child": false,
+      "steps": true,
+      "mistake": true,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Explain simply: what is a capital city?",
+    "gold": "main city of a country",
+    "pred": "vague",
+    "note": "TEMPLATE:\n1. One-sentence idea\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "misleading_or_vague_explanation_no_child"
+    ]
+  },
+  {
+    "seed": 2025,
+    "domain": "qa",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Q: What is the capital of Germany?",
+    "gold": "I don't know",
+    "pred": "berlin",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "no_guardrail_hallucination"
+    ]
+  },
+  {
+    "seed": 2025,
+    "domain": "qa",
+    "ablation_mode": "no_mistake",
+    "config": {
+      "child": true,
+      "steps": true,
+      "mistake": false,
+      "revision": true,
+      "memory": true
+    },
+    "question": "Q: What is the color of Mars?",
+    "gold": "I don't know",
+    "pred": "red",
+    "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.",
+    "LearningScore_norm": 0.0,
+    "tags": [
+      "confident_wrong",
+      "low_score",
+      "no_guardrail_hallucination"
+    ]
+  }
+]
