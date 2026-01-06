@@ -1,0 +1,13 @@
+{
+  "domain": "sentiment",
+  "seed": 2025,
+  "ablation_mode": "no_steps",
+  "config": {
+    "child": true,
+    "steps": false,
+    "mistake": true,
+    "revision": true,
+    "memory": true
+  },
+  "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\nCHILD: If task asks 'Explain', give a one-sentence plain definition.\nLIMITATION: META routing rules are missing.\nMISTAKE: do not guess; if cannot verify, abstain.\nGUARDRAIL: if missing rule/evidence -> answer 'I don't know'."
+}

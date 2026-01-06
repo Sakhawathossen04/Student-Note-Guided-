@@ -1,0 +1,13 @@
+{
+  "domain": "math",
+  "seed": 2025,
+  "ablation_mode": "no_steps",
+  "config": {
+    "child": true,
+    "steps": false,
+    "mistake": true,
+    "revision": true,
+    "memory": true
+  },
+  "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n4. Common mistake\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nLIMITATION: missing META routing rules.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'."
+}

@@ -1,0 +1,13 @@
+{
+  "domain": "linear_regression",
+  "seed": 123,
+  "ablation_mode": "no_mistake",
+  "config": {
+    "child": true,
+    "steps": true,
+    "mistake": false,
+    "revision": true,
+    "memory": true
+  },
+  "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\n[GUARDRAIL_OFF]\nNO_GUARDRAIL: guessing allowed if context missing.\nLR_FACTS: y=beta0+beta1x; residual=y-y_hat; OLS minimizes SSE."
+}

@@ -1,0 +1,13 @@
+{
+  "domain": "sentiment",
+  "seed": 42,
+  "ablation_mode": "no_revision",
+  "config": {
+    "child": true,
+    "steps": true,
+    "mistake": true,
+    "revision": false,
+    "memory": true
+  },
+  "note": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nCHILD: If task asks 'Explain', give a one-sentence plain definition.\nSTEPS: detect task type -> apply correct META rule -> verify -> answer.\nMETA_EXPLAIN: if question contains 'Explain', answer with short definition.\nMETA_QA: if question starts 'Q:', answer using provided context only.\nMETA_SENTIMENT: if question contains 'Sentiment of:', classify by polarity cues.\nMETA_MATH: if question contains 'Compute' or 'If x=', do exact arithmetic.\nMISTAKE: do not guess; if cannot verify, abstain.\nGUARDRAIL: if missing rule/evidence -> answer 'I don't know'.\nNOISE: sometimes ignore META rules and answer 'I don't know' even when solvable."
+}
