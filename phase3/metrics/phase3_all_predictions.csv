@@ -1,0 +1,181 @@
+seed,domain,mode,t,question,gold,pred,acc,abstain,halluc,consistency
+42,linear_regression,direct,1,What does linear regression model?,relationship between dependent and independent variables,relationship between dependent and independent variables,1.0,0.0,0.0,1.0000000000000002
+42,linear_regression,direct,2,What is the goal of ordinary least squares?,minimize sum of squared residuals,minimize sum of squared residuals,1.0,0.0,0.0,1.0
+42,linear_regression,direct,3,Write the simple linear regression equation.,y = beta0 + beta1 x,y = beta0 + beta1 x,1.0,0.0,0.0,1.0000000000000002
+42,linear_regression,direct,4,What is a residual?,difference between observed and predicted value,difference between observed and predicted value,1.0,0.0,0.0,1.0000000000000002
+42,linear_regression,direct,5,What does a high R-squared indicate?,model explains large fraction of variance,model explains large fraction of variance,1.0,0.0,0.0,1.0000000000000002
+42,linear_regression,rag,1,What does linear regression model?,relationship between dependent and independent variables,relationship between dependent and independent variables,1.0,0.0,0.0,1.0000000000000002
+42,linear_regression,rag,2,What is the goal of ordinary least squares?,minimize sum of squared residuals,minimize sum of squared residuals,1.0,0.0,0.0,1.0
+42,linear_regression,rag,3,Write the simple linear regression equation.,y = beta0 + beta1 x,y = beta0 + beta1 x,1.0,0.0,0.0,1.0000000000000002
+42,linear_regression,rag,4,What is a residual?,difference between observed and predicted value,difference between observed and predicted value,1.0,0.0,0.0,1.0000000000000002
+42,linear_regression,rag,5,What does a high R-squared indicate?,model explains large fraction of variance,model explains large fraction of variance,1.0,0.0,0.0,1.0000000000000002
+42,linear_regression,student_note,1,What does linear regression model?,relationship between dependent and independent variables,relationship between dependent and independent variables,1.0,0.0,0.0,1.0000000000000002
+42,linear_regression,student_note,2,What is the goal of ordinary least squares?,minimize sum of squared residuals,minimize sum of squared residuals,1.0,0.0,0.0,1.0
+42,linear_regression,student_note,3,Write the simple linear regression equation.,y = beta0 + beta1 x,y = beta0 + beta1 x,1.0,0.0,0.0,1.0000000000000002
+42,linear_regression,student_note,4,What is a residual?,difference between observed and predicted value,difference between observed and predicted value,1.0,0.0,0.0,1.0000000000000002
+42,linear_regression,student_note,5,What does a high R-squared indicate?,model explains large fraction of variance,model explains large fraction of variance,1.0,0.0,0.0,1.0000000000000002
+123,linear_regression,direct,1,What does linear regression model?,relationship between dependent and independent variables,relationship between dependent and independent variables,1.0,0.0,0.0,1.0000000000000002
+123,linear_regression,direct,2,What is the goal of ordinary least squares?,minimize sum of squared residuals,minimize sum of squared residuals,1.0,0.0,0.0,1.0
+123,linear_regression,direct,3,Write the simple linear regression equation.,y = beta0 + beta1 x,y = beta0 + beta1 x,1.0,0.0,0.0,1.0000000000000002
+123,linear_regression,direct,4,What is a residual?,difference between observed and predicted value,difference between observed and predicted value,1.0,0.0,0.0,1.0000000000000002
+123,linear_regression,direct,5,What does a high R-squared indicate?,model explains large fraction of variance,model explains large fraction of variance,1.0,0.0,0.0,1.0000000000000002
+123,linear_regression,rag,1,What does linear regression model?,relationship between dependent and independent variables,relationship between dependent and independent variables,1.0,0.0,0.0,1.0000000000000002
+123,linear_regression,rag,2,What is the goal of ordinary least squares?,minimize sum of squared residuals,minimize sum of squared residuals,1.0,0.0,0.0,1.0
+123,linear_regression,rag,3,Write the simple linear regression equation.,y = beta0 + beta1 x,y = beta0 + beta1 x,1.0,0.0,0.0,1.0000000000000002
+123,linear_regression,rag,4,What is a residual?,difference between observed and predicted value,difference between observed and predicted value,1.0,0.0,0.0,1.0000000000000002
+123,linear_regression,rag,5,What does a high R-squared indicate?,model explains large fraction of variance,model explains large fraction of variance,1.0,0.0,0.0,1.0000000000000002
+123,linear_regression,student_note,1,What does linear regression model?,relationship between dependent and independent variables,relationship between dependent and independent variables,1.0,0.0,0.0,1.0000000000000002
+123,linear_regression,student_note,2,What is the goal of ordinary least squares?,minimize sum of squared residuals,minimize sum of squared residuals,1.0,0.0,0.0,1.0
+123,linear_regression,student_note,3,Write the simple linear regression equation.,y = beta0 + beta1 x,y = beta0 + beta1 x,1.0,0.0,0.0,1.0000000000000002
+123,linear_regression,student_note,4,What is a residual?,difference between observed and predicted value,difference between observed and predicted value,1.0,0.0,0.0,1.0000000000000002
+123,linear_regression,student_note,5,What does a high R-squared indicate?,model explains large fraction of variance,model explains large fraction of variance,1.0,0.0,0.0,1.0000000000000002
+2025,linear_regression,direct,1,What does linear regression model?,relationship between dependent and independent variables,relationship between dependent and independent variables,1.0,0.0,0.0,1.0000000000000002
+2025,linear_regression,direct,2,What is the goal of ordinary least squares?,minimize sum of squared residuals,minimize sum of squared residuals,1.0,0.0,0.0,1.0
+2025,linear_regression,direct,3,Write the simple linear regression equation.,y = beta0 + beta1 x,y = beta0 + beta1 x,1.0,0.0,0.0,1.0000000000000002
+2025,linear_regression,direct,4,What is a residual?,difference between observed and predicted value,difference between observed and predicted value,1.0,0.0,0.0,1.0000000000000002
+2025,linear_regression,direct,5,What does a high R-squared indicate?,model explains large fraction of variance,model explains large fraction of variance,1.0,0.0,0.0,1.0000000000000002
+2025,linear_regression,rag,1,What does linear regression model?,relationship between dependent and independent variables,relationship between dependent and independent variables,1.0,0.0,0.0,1.0000000000000002
+2025,linear_regression,rag,2,What is the goal of ordinary least squares?,minimize sum of squared residuals,minimize sum of squared residuals,1.0,0.0,0.0,1.0
+2025,linear_regression,rag,3,Write the simple linear regression equation.,y = beta0 + beta1 x,y = beta0 + beta1 x,1.0,0.0,0.0,1.0000000000000002
+2025,linear_regression,rag,4,What is a residual?,difference between observed and predicted value,difference between observed and predicted value,1.0,0.0,0.0,1.0000000000000002
+2025,linear_regression,rag,5,What does a high R-squared indicate?,model explains large fraction of variance,model explains large fraction of variance,1.0,0.0,0.0,1.0000000000000002
+2025,linear_regression,student_note,1,What does linear regression model?,relationship between dependent and independent variables,relationship between dependent and independent variables,1.0,0.0,0.0,1.0000000000000002
+2025,linear_regression,student_note,2,What is the goal of ordinary least squares?,minimize sum of squared residuals,minimize sum of squared residuals,1.0,0.0,0.0,1.0
+2025,linear_regression,student_note,3,Write the simple linear regression equation.,y = beta0 + beta1 x,y = beta0 + beta1 x,1.0,0.0,0.0,1.0000000000000002
+2025,linear_regression,student_note,4,What is a residual?,difference between observed and predicted value,difference between observed and predicted value,1.0,0.0,0.0,1.0000000000000002
+2025,linear_regression,student_note,5,What does a high R-squared indicate?,model explains large fraction of variance,model explains large fraction of variance,1.0,0.0,0.0,1.0000000000000002
+42,sentiment,direct,1,"Sentiment of: 'I loved this movie, it was fantastic.'",positive,positive,1.0,0.0,0.0,1.0
+42,sentiment,direct,2,Sentiment of: 'This was awful and boring.',negative,negative,1.0,0.0,0.0,1.0
+42,sentiment,direct,3,"Sentiment of: 'Not bad, but not great either.'",neutral,neutral,1.0,0.0,0.0,1.0
+42,sentiment,direct,4,Sentiment of: 'Absolutely terrible experience.',negative,negative,1.0,0.0,0.0,1.0
+42,sentiment,direct,5,Sentiment of: 'I really enjoyed it.',positive,positive,1.0,0.0,0.0,1.0
+42,sentiment,rag,1,"Sentiment of: 'I loved this movie, it was fantastic.'",positive,positive,1.0,0.0,0.0,1.0
+42,sentiment,rag,2,Sentiment of: 'This was awful and boring.',negative,negative,1.0,0.0,0.0,1.0
+42,sentiment,rag,3,"Sentiment of: 'Not bad, but not great either.'",neutral,neutral,1.0,0.0,0.0,1.0
+42,sentiment,rag,4,Sentiment of: 'Absolutely terrible experience.',negative,negative,1.0,0.0,0.0,1.0
+42,sentiment,rag,5,Sentiment of: 'I really enjoyed it.',positive,positive,1.0,0.0,0.0,1.0
+42,sentiment,student_note,1,"Sentiment of: 'I loved this movie, it was fantastic.'",positive,positive,1.0,0.0,0.0,1.0
+42,sentiment,student_note,2,Sentiment of: 'This was awful and boring.',negative,negative,1.0,0.0,0.0,1.0
+42,sentiment,student_note,3,"Sentiment of: 'Not bad, but not great either.'",neutral,neutral,1.0,0.0,0.0,1.0
+42,sentiment,student_note,4,Sentiment of: 'Absolutely terrible experience.',negative,negative,1.0,0.0,0.0,1.0
+42,sentiment,student_note,5,Sentiment of: 'I really enjoyed it.',positive,positive,1.0,0.0,0.0,1.0
+123,sentiment,direct,1,"Sentiment of: 'I loved this movie, it was fantastic.'",positive,positive,1.0,0.0,0.0,1.0
+123,sentiment,direct,2,Sentiment of: 'This was awful and boring.',negative,negative,1.0,0.0,0.0,1.0
+123,sentiment,direct,3,"Sentiment of: 'Not bad, but not great either.'",neutral,neutral,1.0,0.0,0.0,1.0
+123,sentiment,direct,4,Sentiment of: 'Absolutely terrible experience.',negative,negative,1.0,0.0,0.0,1.0
+123,sentiment,direct,5,Sentiment of: 'I really enjoyed it.',positive,positive,1.0,0.0,0.0,1.0
+123,sentiment,rag,1,"Sentiment of: 'I loved this movie, it was fantastic.'",positive,positive,1.0,0.0,0.0,1.0
+123,sentiment,rag,2,Sentiment of: 'This was awful and boring.',negative,negative,1.0,0.0,0.0,1.0
+123,sentiment,rag,3,"Sentiment of: 'Not bad, but not great either.'",neutral,neutral,1.0,0.0,0.0,1.0
+123,sentiment,rag,4,Sentiment of: 'Absolutely terrible experience.',negative,negative,1.0,0.0,0.0,1.0
+123,sentiment,rag,5,Sentiment of: 'I really enjoyed it.',positive,positive,1.0,0.0,0.0,1.0
+123,sentiment,student_note,1,"Sentiment of: 'I loved this movie, it was fantastic.'",positive,positive,1.0,0.0,0.0,1.0
+123,sentiment,student_note,2,Sentiment of: 'This was awful and boring.',negative,negative,1.0,0.0,0.0,1.0
+123,sentiment,student_note,3,"Sentiment of: 'Not bad, but not great either.'",neutral,neutral,1.0,0.0,0.0,1.0
+123,sentiment,student_note,4,Sentiment of: 'Absolutely terrible experience.',negative,negative,1.0,0.0,0.0,1.0
+123,sentiment,student_note,5,Sentiment of: 'I really enjoyed it.',positive,positive,1.0,0.0,0.0,1.0
+2025,sentiment,direct,1,"Sentiment of: 'I loved this movie, it was fantastic.'",positive,positive,1.0,0.0,0.0,1.0
+2025,sentiment,direct,2,Sentiment of: 'This was awful and boring.',negative,negative,1.0,0.0,0.0,1.0
+2025,sentiment,direct,3,"Sentiment of: 'Not bad, but not great either.'",neutral,neutral,1.0,0.0,0.0,1.0
+2025,sentiment,direct,4,Sentiment of: 'Absolutely terrible experience.',negative,negative,1.0,0.0,0.0,1.0
+2025,sentiment,direct,5,Sentiment of: 'I really enjoyed it.',positive,positive,1.0,0.0,0.0,1.0
+2025,sentiment,rag,1,"Sentiment of: 'I loved this movie, it was fantastic.'",positive,positive,1.0,0.0,0.0,1.0
+2025,sentiment,rag,2,Sentiment of: 'This was awful and boring.',negative,negative,1.0,0.0,0.0,1.0
+2025,sentiment,rag,3,"Sentiment of: 'Not bad, but not great either.'",neutral,neutral,1.0,0.0,0.0,1.0
+2025,sentiment,rag,4,Sentiment of: 'Absolutely terrible experience.',negative,negative,1.0,0.0,0.0,1.0
+2025,sentiment,rag,5,Sentiment of: 'I really enjoyed it.',positive,positive,1.0,0.0,0.0,1.0
+2025,sentiment,student_note,1,"Sentiment of: 'I loved this movie, it was fantastic.'",positive,positive,1.0,0.0,0.0,1.0
+2025,sentiment,student_note,2,Sentiment of: 'This was awful and boring.',negative,negative,1.0,0.0,0.0,1.0
+2025,sentiment,student_note,3,"Sentiment of: 'Not bad, but not great either.'",neutral,neutral,1.0,0.0,0.0,1.0
+2025,sentiment,student_note,4,Sentiment of: 'Absolutely terrible experience.',negative,negative,1.0,0.0,0.0,1.0
+2025,sentiment,student_note,5,Sentiment of: 'I really enjoyed it.',positive,positive,1.0,0.0,0.0,1.0
+42,qa,direct,1,Q: What is the capital of France?,paris,I don't know,0.0,1.0,0.0,0.0
+42,qa,direct,2,Q: At what temperature does water freeze?,0°C,I don't know,0.0,1.0,0.0,0.0
+42,qa,direct,3,Q: What does the Earth orbit?,the sun,I don't know,0.0,1.0,0.0,0.0
+42,qa,direct,4,Q: Where is the Nile?,africa,I don't know,0.0,1.0,0.0,0.0
+42,qa,direct,5,Q: What is Python?,a programming language,I don't know,0.0,1.0,0.0,0.0
+42,qa,rag,1,Q: What is the capital of France?,paris,paris,1.0,0.0,0.0,1.0
+42,qa,rag,2,Q: At what temperature does water freeze?,0°C,0°C,1.0,0.0,0.0,0.0
+42,qa,rag,3,Q: What does the Earth orbit?,the sun,the sun,1.0,0.0,0.0,1.0
+42,qa,rag,4,Q: Where is the Nile?,africa,africa,1.0,0.0,0.0,1.0
+42,qa,rag,5,Q: What is Python?,a programming language,a programming language,1.0,0.0,0.0,1.0000000000000002
+42,qa,student_note,1,Q: What is the capital of France?,paris,paris,1.0,0.0,0.0,1.0
+42,qa,student_note,2,Q: At what temperature does water freeze?,0°C,0°C,1.0,0.0,0.0,0.0
+42,qa,student_note,3,Q: What does the Earth orbit?,the sun,the sun,1.0,0.0,0.0,1.0
+42,qa,student_note,4,Q: Where is the Nile?,africa,africa,1.0,0.0,0.0,1.0
+42,qa,student_note,5,Q: What is Python?,a programming language,a programming language,1.0,0.0,0.0,1.0000000000000002
+123,qa,direct,1,Q: What is the capital of France?,paris,I don't know,0.0,1.0,0.0,0.0
+123,qa,direct,2,Q: At what temperature does water freeze?,0°C,I don't know,0.0,1.0,0.0,0.0
+123,qa,direct,3,Q: What does the Earth orbit?,the sun,I don't know,0.0,1.0,0.0,0.0
+123,qa,direct,4,Q: Where is the Nile?,africa,I don't know,0.0,1.0,0.0,0.0
+123,qa,direct,5,Q: What is Python?,a programming language,I don't know,0.0,1.0,0.0,0.0
+123,qa,rag,1,Q: What is the capital of France?,paris,paris,1.0,0.0,0.0,1.0
+123,qa,rag,2,Q: At what temperature does water freeze?,0°C,0°C,1.0,0.0,0.0,0.0
+123,qa,rag,3,Q: What does the Earth orbit?,the sun,the sun,1.0,0.0,0.0,1.0
+123,qa,rag,4,Q: Where is the Nile?,africa,africa,1.0,0.0,0.0,1.0
+123,qa,rag,5,Q: What is Python?,a programming language,a programming language,1.0,0.0,0.0,1.0000000000000002
+123,qa,student_note,1,Q: What is the capital of France?,paris,paris,1.0,0.0,0.0,1.0
+123,qa,student_note,2,Q: At what temperature does water freeze?,0°C,0°C,1.0,0.0,0.0,0.0
+123,qa,student_note,3,Q: What does the Earth orbit?,the sun,the sun,1.0,0.0,0.0,1.0
+123,qa,student_note,4,Q: Where is the Nile?,africa,africa,1.0,0.0,0.0,1.0
+123,qa,student_note,5,Q: What is Python?,a programming language,a programming language,1.0,0.0,0.0,1.0000000000000002
+2025,qa,direct,1,Q: What is the capital of France?,paris,I don't know,0.0,1.0,0.0,0.0
+2025,qa,direct,2,Q: At what temperature does water freeze?,0°C,I don't know,0.0,1.0,0.0,0.0
+2025,qa,direct,3,Q: What does the Earth orbit?,the sun,I don't know,0.0,1.0,0.0,0.0
+2025,qa,direct,4,Q: Where is the Nile?,africa,I don't know,0.0,1.0,0.0,0.0
+2025,qa,direct,5,Q: What is Python?,a programming language,I don't know,0.0,1.0,0.0,0.0
+2025,qa,rag,1,Q: What is the capital of France?,paris,paris,1.0,0.0,0.0,1.0
+2025,qa,rag,2,Q: At what temperature does water freeze?,0°C,0°C,1.0,0.0,0.0,0.0
+2025,qa,rag,3,Q: What does the Earth orbit?,the sun,the sun,1.0,0.0,0.0,1.0
+2025,qa,rag,4,Q: Where is the Nile?,africa,africa,1.0,0.0,0.0,1.0
+2025,qa,rag,5,Q: What is Python?,a programming language,a programming language,1.0,0.0,0.0,1.0000000000000002
+2025,qa,student_note,1,Q: What is the capital of France?,paris,paris,1.0,0.0,0.0,1.0
+2025,qa,student_note,2,Q: At what temperature does water freeze?,0°C,0°C,1.0,0.0,0.0,0.0
+2025,qa,student_note,3,Q: What does the Earth orbit?,the sun,the sun,1.0,0.0,0.0,1.0
+2025,qa,student_note,4,Q: Where is the Nile?,africa,africa,1.0,0.0,0.0,1.0
+2025,qa,student_note,5,Q: What is Python?,a programming language,a programming language,1.0,0.0,0.0,1.0000000000000002
+42,math,direct,1,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0
+42,math,direct,2,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0
+42,math,direct,3,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0
+42,math,direct,4,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0
+42,math,direct,5,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0
+42,math,rag,1,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0
+42,math,rag,2,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0
+42,math,rag,3,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0
+42,math,rag,4,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0
+42,math,rag,5,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0
+42,math,student_note,1,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0
+42,math,student_note,2,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0
+42,math,student_note,3,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0
+42,math,student_note,4,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0
+42,math,student_note,5,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0
+123,math,direct,1,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0
+123,math,direct,2,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0
+123,math,direct,3,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0
+123,math,direct,4,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0
+123,math,direct,5,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0
+123,math,rag,1,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0
+123,math,rag,2,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0
+123,math,rag,3,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0
+123,math,rag,4,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0
+123,math,rag,5,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0
+123,math,student_note,1,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0
+123,math,student_note,2,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0
+123,math,student_note,3,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0
+123,math,student_note,4,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0
+123,math,student_note,5,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0
+2025,math,direct,1,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0
+2025,math,direct,2,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0
+2025,math,direct,3,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0
+2025,math,direct,4,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0
+2025,math,direct,5,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0
+2025,math,rag,1,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0
+2025,math,rag,2,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0
+2025,math,rag,3,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0
+2025,math,rag,4,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0
+2025,math,rag,5,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0
+2025,math,student_note,1,Compute 7 + 5.,12,12,1.0,0.0,0.0,1.0
+2025,math,student_note,2,Compute 9 * 3.,27,27,1.0,0.0,0.0,1.0
+2025,math,student_note,3,"If x=4, compute 2x+1.",9,25,0.0,0.0,1.0,0.0
+2025,math,student_note,4,Compute 15 - 8.,7,7,1.0,0.0,0.0,0.0
+2025,math,student_note,5,Compute 24 / 6.,4,4,1.0,0.0,0.0,0.0
