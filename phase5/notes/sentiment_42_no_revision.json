@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "domain": "sentiment",
+  "mode": "no_revision",
+  "config": {
+    "child": true,
+    "steps": true,
+    "mistake": true,
+    "revision": false,
+    "memory": true
+  },
+  "note_raw": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\nMETA_SENT: if 'Classify sentiment' -> keyword polarity.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.\nNOISE: sometimes abstain even when solvable.",
+  "critique": "- Remove NOISE.",
+  "note_final": "TEMPLATE:\n1. One-sentence idea\n2. Simple explanation for a child\n3. Step-by-step procedure\n4. Common mistake\n5. One question I still have\nCHILD: if 'Explain' -> give one-sentence plain definition.\nSTEPS: detect task -> apply META -> verify -> answer.\nMETA_EXPLAIN: if contains 'Explain' -> return definition.\nMETA_QA: if starts 'Q:' -> answer using context only.\nMETA_MATH: if contains 'Compute'/'If x=' -> exact arithmetic.\nMETA_LR: if about LR/OLS/residual -> use LR facts.\nMETA_SENT: if 'Classify sentiment' -> keyword polarity.\n[GUARDRAIL_ON]\nGUARDRAIL: if not verifiable -> 'I don't know'.\nNOISE: sometimes abstain even when solvable."
+}
