@@ -1,0 +1,4 @@
+seed,train_domain,eval_domain,acc_B,hall_B,note_len
+42,linear_regression,math,0.8,1.0,255
+42,math,qa,1.0,1.0,192
+42,sentiment,qa,1.0,1.0,249
