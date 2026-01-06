@@ -1,0 +1,6 @@
+seed,domain,ablation_mode,t,question,gold,pred,acc,abstain,halluc,cons,LearningScore,LearningScore_norm,explain_q,explain_quality,note_len
+123,math,no_steps,1,Explain simply: what is addition?,combining numbers to get a total,I don't know,0.0,1.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.0,273
+123,math,no_steps,2,Compute 7 + 5.,12,I don't know,0.0,1.0,0.0,0.0,0.0,0.3333333333333333,0.0,,273
+123,math,no_steps,3,Compute 9 * 3.,27,I don't know,0.0,1.0,0.0,0.0,0.0,0.3333333333333333,0.0,,273
+123,math,no_steps,4,"If x=4, compute 2x+1.",9,I don't know,0.0,1.0,0.0,0.0,0.0,0.3333333333333333,0.0,,273
+123,math,no_steps,5,Compute 15 - 8.,7,I don't know,0.0,1.0,0.0,0.0,0.0,0.3333333333333333,0.0,,273

@@ -1,0 +1,6 @@
+seed,domain,ablation_mode,t,question,gold,pred,acc,abstain,halluc,cons,LearningScore,LearningScore_norm,explain_q,explain_quality,note_len
+123,qa,no_steps,1,Explain simply: what is a capital city?,main city of a country,I don't know,0.0,1.0,0.0,1.0000000000000002,1.0000000000000002,0.6666666666666666,1.0,0.0,273
+123,qa,no_steps,2,Q: What is the capital of France?,paris,I don't know,0.0,1.0,0.0,1.0000000000000002,1.0000000000000002,0.6666666666666666,0.0,,273
+123,qa,no_steps,3,Q: At what temperature does water freeze?,0°C,I don't know,0.0,1.0,0.0,1.0000000000000002,1.0000000000000002,0.6666666666666666,0.0,,273
+123,qa,no_steps,4,Q: What is the capital of Germany?,I don't know,I don't know,1.0,1.0,0.0,1.0000000000000002,2.0,1.0,0.0,,273
+123,qa,no_steps,5,Q: What is the color of Mars?,I don't know,I don't know,1.0,1.0,0.0,1.0000000000000002,2.0,1.0,0.0,,273

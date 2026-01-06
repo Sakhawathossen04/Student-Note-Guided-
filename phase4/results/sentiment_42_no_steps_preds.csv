@@ -1,0 +1,6 @@
+seed,domain,ablation_mode,t,question,gold,pred,acc,abstain,halluc,cons,LearningScore,LearningScore_norm,explain_q,explain_quality,note_len
+42,sentiment,no_steps,1,Explain simply: what is sentiment analysis?,classifies text as positive negative or neutral,I don't know,0.0,1.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.0,336
+42,sentiment,no_steps,2,"Sentiment of: 'I loved this movie, it was fantastic.'",positive,I don't know,0.0,1.0,0.0,0.0,0.0,0.3333333333333333,0.0,,336
+42,sentiment,no_steps,3,Sentiment of: 'This was awful and boring.',negative,I don't know,0.0,1.0,0.0,0.0,0.0,0.3333333333333333,0.0,,336
+42,sentiment,no_steps,4,"Sentiment of: 'Not bad, but not great either.'",neutral,I don't know,0.0,1.0,0.0,0.0,0.0,0.3333333333333333,0.0,,336
+42,sentiment,no_steps,5,Sentiment of: 'Absolutely terrible experience.',negative,I don't know,0.0,1.0,0.0,0.0,0.0,0.3333333333333333,0.0,,336

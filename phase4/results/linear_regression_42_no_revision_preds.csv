@@ -1,0 +1,6 @@
+seed,domain,ablation_mode,t,question,gold,pred,acc,abstain,halluc,cons,LearningScore,LearningScore_norm,explain_q,explain_quality,note_len
+42,linear_regression,no_revision,1,Explain simply: what is linear regression?,relationship between dependent and independent variables,I don't know,0.0,1.0,0.0,0.0,0.0,0.3333333333333333,1.0,0.0,646
+42,linear_regression,no_revision,2,What does linear regression model?,relationship between dependent and independent variables,relationship between dependent and independent variables,1.0,0.0,0.0,1.0000000000000002,2.0,1.0,0.0,,646
+42,linear_regression,no_revision,3,Write the simple linear regression equation.,y = beta0 + beta1 x,y = beta0 + beta1 x,1.0,0.0,0.0,1.0000000000000002,2.0,1.0,0.0,,646
+42,linear_regression,no_revision,4,What is a residual?,difference between observed and predicted value,difference between observed and predicted value,1.0,0.0,0.0,1.0000000000000002,2.0,1.0,0.0,,646
+42,linear_regression,no_revision,5,What is the goal of ordinary least squares?,minimize sum of squared residuals,I don't know,0.0,1.0,0.0,0.0,0.0,0.3333333333333333,0.0,,646
